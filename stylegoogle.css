@@ -1,0 +1,151 @@
+html {
+	height: 100%;
+  	margin: 0;
+	font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navigation
+{
+   margin:0;
+   padding:0;
+}
+ 
+.navigation li 
+{
+   display:inline;
+   padding:0;
+   margin:0;
+}
+
+.navigation a {
+	color: #808080;
+}
+
+.navigation a:hover {
+	color: #A9A9A9;
+}
+
+#connexion:hover {
+  box-shadow: 1px 1px 5px #999;
+}
+#connexion {
+  color: #fff;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	padding-top: 130px;
+	padding-bottom: 20px;
+}
+
+.search_bar input {
+	background: #fff;
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 15px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 45px;
+    width: 500px;
+    outline: none;
+    display: inline-block;
+}
+
+.boutons a {
+	text-align: center;
+    display: inline-block;
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 36px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #808080;
+    height: 36px;
+    min-width: 54px;
+
+}
+
+.boutons a:hover {
+	border: 1px solid #f2f2f2;
+	color: #A9A9A9;
+}
+
+.boutons {
+	padding-bottom: 190px;
+}
+
+footer {
+	background-color: #F2F2F2;
+    border-top: solid 2px #E4E4E4;
+  /*   position: fixed; */
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+footer a {
+	color: #808080;
+}
+
+footer a:hover {
+	color: #A9A9A9;
+}
+
+.france
+{
+   margin:0;
+   padding-left: 40px;
+   border-bottom: solid 1px #E4E4E4;
+   color: #808080;
+}
+
+#footerbottom {
+	background-color: #F2F2F2;
+	display: flex;
+}
+ 
+.mentionsfooter1 {
+	background-color: #F2F2F2;
+	text-align: center;
+	margin: auto;
+	padding-top: 10px;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+.mentionsfooter2 {
+	background-color: #F2F2F2;
+	float: right;
+	padding-top: 10px;
+	width:100%;
+	text-align: right;
+}
+
+
+.mentionsfooter1 li
+{
+   display:inline;
+   padding:0;
+   margin:0;
+}
+
+.mentionsfooter2 li 
+{
+   display:inline;
+   padding:0;
+   margin:0;
+}
